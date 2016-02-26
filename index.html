@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>YouTube API</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1><a href="index.html">YouTube Search</a></h1>
+		</div>
+	</header>
+	<main>
+	<div class="container">
+		<form action="#">
+			<input type="text" id="search" placeholder="Type something..." autocomplete="off">
+			<input type="submit" value="Search">
+		</form>
+		<div id="results"></div>	
+	</div>
+	</main>
+	
+	<side>
+		<div class="side-panel">
+			<ul>
+				<a target="_blank" href="https://github.com/ma-fas" title="See other projects" class="social"><li><span class="fa fa-github"></span></li></a>
+				<a target="_blank" href="https://pl.linkedin.com/in/magdalenaannafas" class="social" title="Look up my CV"><li><span class="fa fa-linkedin"></span></li></a>
+				<a target="_blank" href="http://www.freecodecamp.com/ma-fas" class="social" title="See my freeCodeCamp progress"><li><span class="fa fa-fire"></span></li></a>
+			</ul>
+		</div>
+	</side>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/tplawesome.js"></script>
+	<script src="js/search.js"></script>
+	<script src="https://apis.google.com/js/client.js?onload=init" type="text/javascript"></script>
+</body>
+</html>
